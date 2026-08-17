@@ -86,4 +86,12 @@ Rails.application.configure do
   #
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
+
+  # config.force_ssl = true
+  # config.cache_classes = true
+  # config.eager_load = true
+  # config.active_record.dump_schema_after_migration = false
+  # config.assets.compile = false
+  # config.assets.digest = true
+  # config.public_file_server.enabled = false
 end

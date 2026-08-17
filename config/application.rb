@@ -16,6 +16,16 @@ module RailsExercise1
     # Common ones are `templates`, `generators`, or `middleware`, for example.
     config.autoload_lib(ignore: %w[assets tasks])
 
+
+    
+    # config.time_zone = 'Asia/Manila'
+    # config.active_record.default_timezone = :local
+    # config.active_record.schema_format = :ruby
+    # config.active_record.belongs_to_required_by_default = true
+    # config.filter_parameters += [:password, :token]
+    # config.i18n.default_locale = :en
+
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
@@ -23,5 +33,12 @@ module RailsExercise1
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # # clean up scaffold generators
+    # config.generators do |g|
+    #   g.stylesheets false
+    #   g.javascripts false
+    #   g.helper false
+    # end
   end
 end
