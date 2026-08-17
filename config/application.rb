@@ -34,7 +34,7 @@ module RailsExercise1
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
 
-    # # clean up scaffold generators
+    # # clean up scaffold 
     # config.generators do |g|
     #   g.stylesheets false
     #   g.javascripts false
@@ -42,3 +42,4 @@ module RailsExercise1
     # end
   end
 end
+
